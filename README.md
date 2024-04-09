@@ -1,6 +1,6 @@
-# YOM Miner
+# YOM Node
 
-The public node.js implementation of the YOM Miner to support cloud gaming for the metaverse.
+The public node.js implementation of the YOM Node to support cloud gaming for the metaverse.
 
 ## Prerequisites
 
@@ -14,12 +14,12 @@ The public node.js implementation of the YOM Miner to support cloud gaming for t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yom-miner.git
+   git clone https://github.com/yom-ooo/yom-node.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd yom-miner
+   cd yom-Node
    ```
 
 3. Run the setup script:
@@ -40,7 +40,7 @@ The public node.js implementation of the YOM Miner to support cloud gaming for t
 
 ## Usage
 
-1. Start the miner:
+1. Start the Node:
    ```bash
    npm run start -- [options]
    ```
@@ -60,7 +60,7 @@ The public node.js implementation of the YOM Miner to support cloud gaming for t
 ## Troubleshooting
 
 - If you encounter any issues during installation or usage, please refer to the troubleshooting guide in the [documentation](docs/troubleshooting.md).
-- If the issue persists, please file an issue on the [GitHub repository](https://github.com/yourusername/yom-miner/issues) with detailed information about the problem.
+- If the issue persists, please file an issue on the [GitHub repository](https://github.com/yourusername/yom-Node/issues) with detailed information about the problem.
 
 ## Contributing
 
