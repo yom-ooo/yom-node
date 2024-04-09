@@ -1,0 +1,21 @@
+{
+  "name": "yom-miner",
+  "version": "1.0.0",
+  "description": "The public Node.js implementation of our YOM Miner.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1591.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "systeminformation": "^4.34.23",
+    "yargs": "^17.7.2"
+  }
+}
