@@ -42,20 +42,19 @@ The public node.js implementation of the YOM Node to support cloud gaming for th
 
 1. Start the Node:
    ```bash
-   npm run start -- [options]
+   npm run start
    ```
 
-   Available options:
-   - `-k, --walletKey <key>`: Specify your wallet key. Default is an empty string.
-   - `-p, --storageLocation <path>`: Specify the storage path for files. Default is "Downloads".
-   - `-u, --url <url>`: Specify the URL to the space. This option is required.
+## Configuration
+The following environment variables need to be set in the .env file:
 
-   Example usage:
-   ```bash
-   npm run start -- -k YOUR_WALLET_KEY -u https://example.com/space
-   ```
-
-   Make sure to replace `YOUR_WALLET_KEY` with your actual wallet key and `https://example.com/space` with the actual URL to the space.
+AWS_ACCESS_KEY_ID: Your AWS access key ID.
+AWS_SECRET_ACCESS_KEY: Your AWS secret access key.
+AWS_REGION: The AWS region where your resources are located.
+AZURE_FUNCTION_URL: The URL of your Azure Function for sending heartbeats.
+STORAGE_LOCATION: The storage location for downloaded files. This can be a path independent from the project's root or disk.
+WALLET_KEY: Your wallet key.
+Make sure to provide the appropriate values for each environment variable.
 
 ## Troubleshooting
 
