@@ -19,8 +19,15 @@ The public node.js implementation of the YOM Node to support cloud gaming for th
 
 2. Navigate to the project directory:
    ```bash
-   cd yom-Node
+   cd yom-node
    ```
+
+3. Give permissions:
+   ```bash
+   chmod +x scripts/setup.sh
+   ```
+
+   
 
 3. Run the setup script:
    ```bash

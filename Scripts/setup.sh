@@ -33,10 +33,12 @@ sudo apt-get install -y nodejs
 # .............................
 # Install NVIDIA Drivers (sigServer Only)
 #..............................
-#At this point you probably need to SSH into the VM and run sudo aws configure
+
 sudo aws s3 cp --recursive s3://ec2-linux-nvidia-drivers/latest/ .
 sudo chmod +x NVIDIA-Linux-x86_64*.run
 sudo /bin/sh ./NVIDIA-Linux-x86_64*.run
+
+
 nvidia-smi -q | head
 sudo systemctl set-default graphical.target
 sudo init 3
